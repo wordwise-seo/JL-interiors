@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KT Plumbing | Emergency Plumber in Luton — Available 24/7</title>
+<meta name="description" content="KT Plumbing — Luton's trusted emergency plumber. Available 24 hours a day, 7 days a week. Honest pricing, fast response and high-quality work across Luton and Bedfordshire. Call Kemar on 07360 075504.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231c2b3a'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' dominant-baseline='middle' font-family='system-ui' font-weight='800' font-size='13' fill='%23f0a500'%3EKT%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --slate:#1c2b3a; --slate-2:#253547; --slate-3:#2e4158;
+    --amber:#f0a500; --amber-2:#ffc133; --amber-dark:#c4870a;
+    --bg:#f2f5f8; --surface:#ffffff; --line:#e0e7ef;
+    --text:#1c2b3a; --muted:#5e7387; --muted-2:#8fa3b4;
+    --radius:14px; --maxw:1140px;
+    --shadow:0 18px 48px rgba(28,43,58,.12);
+    --shadow-sm:0 8px 24px rgba(28,43,58,.09);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Outfit',system-ui,sans-serif;color:var(--text);background:var(--bg);line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{font-family:'Space Grotesk',system-ui,sans-serif;line-height:1.1;color:var(--slate);font-weight:700;letter-spacing:-.02em}
+  a{color:inherit;text-decoration:none}
+  img{display:block;max-width:100%}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+  .eyebrow{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:.73rem;letter-spacing:.18em;text-transform:uppercase;color:var(--amber-dark);display:inline-flex;align-items:center;gap:.5rem}
+  .eyebrow::before{content:"";width:20px;height:2px;background:var(--amber);border-radius:2px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:.97rem;padding:.88rem 1.65rem;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:transform .15s,background .18s,box-shadow .18s;white-space:nowrap;letter-spacing:.01em}
+  .btn-amber{background:var(--amber);color:var(--slate);box-shadow:0 10px 28px rgba(240,165,0,.32)}
+  .btn-amber:hover{background:var(--amber-2);transform:translateY(-2px);box-shadow:0 14px 36px rgba(240,165,0,.44)}
+  .btn-slate{background:var(--slate);color:#fff}
+  .btn-slate:hover{background:var(--slate-2);transform:translateY(-2px)}
+  .btn-outline{background:transparent;color:var(--slate);border-color:var(--line)}
+  .btn-outline:hover{border-color:var(--slate);background:var(--slate);color:#fff}
+  .btn-outline-white{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+  .btn-outline-white:hover{border-color:#fff;background:rgba(255,255,255,.1)}
+
+  /* placeholder */
+  .ph{background:#e8edf3;border:1.5px dashed #c4cfda;border-radius:var(--radius);display:flex;align-items:center;justify-content:center;color:#8fa3b4;font-size:.84rem;font-family:'Outfit',sans-serif;min-height:220px;overflow:hidden}
+  .ph::after{content:attr(data-label);padding:14px;text-align:center}
+  .ph img{width:100%;height:100%;object-fit:cover;display:block}
+
+  /* Topbar */
+  .topbar{background:var(--slate);color:#c8d8e8;font-size:.83rem;font-weight:500}
+  .topbar .wrap{display:flex;justify-content:space-between;align-items:center;padding:.46rem 22px;gap:12px;flex-wrap:wrap}
+  .topbar .tb-right{display:flex;align-items:center;gap:20px}
+  .topbar a{color:#fff;font-weight:700}
+  .topbar a:hover{color:var(--amber-2)}
+  .topbar .emerg{display:flex;align-items:center;gap:.4rem;color:var(--amber-2);font-weight:700}
+  @media(max-width:700px){.topbar .tb-left{display:none}.topbar .wrap{justify-content:center}}
+
+  /* Header */
+  header.site{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.97);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:.65rem 22px;max-width:var(--maxw);margin:0 auto}
+  .brand{display:flex;align-items:center;gap:.7rem}
+  .brand-mark{width:42px;height:42px;border-radius:10px;background:var(--slate);display:grid;place-items:center;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1rem;color:var(--amber);letter-spacing:.02em}
+  .brand-text b{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.14rem;color:var(--slate);display:block}
+  .brand-text span{font-size:.63rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-weight:600;display:block;margin-top:2px}
+  nav.links{display:flex;align-items:center;gap:24px}
+  nav.links a{font-weight:600;font-size:.93rem;color:var(--muted);transition:color .15s}
+  nav.links a:hover{color:var(--slate)}
+  .nav-cta{display:flex;align-items:center;gap:12px}
+  .nav-phone{font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--slate);font-size:.98rem;display:flex;align-items:center;gap:.4rem}
+  .nav-phone:hover{color:var(--amber-dark)}
+  .burger{display:none;flex-direction:column;gap:5px;background:none;border:0;cursor:pointer;padding:8px}
+  .burger span{width:24px;height:2px;background:var(--slate);border-radius:2px;transition:.25s}
+  @media(max-width:960px){
+    nav.links{position:fixed;inset:0;width:100%;height:100vh;height:100dvh;background:var(--slate);flex-direction:column;align-items:center;justify-content:center;gap:6px;transform:translateY(-100%);transition:transform .32s ease;z-index:1000}
+    nav.links.open{transform:translateY(0)}
+    nav.links a{font-size:1.5rem;color:#fff;padding:.65rem 0;font-family:'Space Grotesk',sans-serif}
+    nav.links a:hover{color:var(--amber-2)}
+    .burger{display:flex;z-index:1001}
+    body.nav-open{overflow:hidden}
+    body.nav-open .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    body.nav-open .burger span:nth-child(2){opacity:0}
+    body.nav-open .burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+    .nav-phone-label{display:none}
+    .nav-cta .btn{display:none}
+  }
+
+  /* Hero */
+  .hero{background:var(--slate);min-height:88vh;display:flex;align-items:center;position:relative;overflow:hidden}
+  .hero-overlay{display:none}
+  .hero-inner{position:relative;z-index:3;width:100%;max-width:var(--maxw);margin:0 auto;padding:72px 22px;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .hero .eyebrow{color:var(--amber-2)}
+  .hero .eyebrow::before{background:var(--amber-2)}
+  .hero h1{color:#fff;font-size:clamp(2.4rem,5.2vw,3.9rem);margin:.85rem 0 1rem;max-width:15ch;line-height:1.05}
+  .hero h1 em{color:var(--amber-2);font-style:normal}
+  .hero p.sub{color:#b0c4d4;font-size:1.1rem;max-width:46ch;margin-bottom:1.8rem;line-height:1.65}
+  .hero-btns{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:2rem}
+  .hero-trust{display:flex;flex-wrap:wrap;gap:10px 24px;padding-top:1.4rem;border-top:1px solid rgba(255,255,255,.14)}
+  .hero-trust span{display:flex;align-items:center;gap:.45rem;color:#c8d8e8;font-weight:600;font-size:.93rem}
+
+  /* The big 24/7 panel — signature element */
+  .availability-card{background:var(--amber);border-radius:22px;padding:34px 30px;box-shadow:0 24px 56px rgba(240,165,0,.3);text-align:center;position:relative}
+  .availability-card .big-num{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:5.5rem;line-height:1;color:var(--slate);letter-spacing:-.04em}
+  .availability-card .big-label{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate);opacity:.7;margin-top:2px}
+  .availability-card .av-divider{width:40px;height:3px;background:rgba(28,43,58,.25);border-radius:2px;margin:16px auto}
+  .availability-card .av-sub{font-size:1.06rem;color:var(--slate);font-weight:600;line-height:1.45}
+  .availability-card .av-cta{display:inline-flex;align-items:center;gap:.5rem;background:var(--slate);color:#fff;font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:1.05rem;padding:.8rem 1.5rem;border-radius:999px;margin-top:20px;transition:background .18s,transform .15s}
+  .availability-card .av-cta:hover{background:var(--slate-2);transform:translateY(-2px)}
+  @media(max-width:860px){
+    .hero-inner{grid-template-columns:1fr;gap:32px;padding:56px 22px}
+    .hero h1{max-width:none}
+    .availability-card .big-num{font-size:4rem}
+  }
+
+  /* Services */
+  .services{background:var(--bg);padding:84px 0}
+  .sec-head{max-width:56ch;margin-bottom:42px}
+  .sec-head h2{font-size:clamp(1.8rem,3.5vw,2.7rem);margin:.5rem 0 .65rem}
+  .sec-head p{color:var(--muted);font-size:1.06rem}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;transition:transform .18s,box-shadow .18s,border-color .18s}
+  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#cddaea}
+  .card .ic{width:50px;height:50px;border-radius:12px;background:linear-gradient(135deg,var(--slate),var(--slate-3));display:grid;place-items:center;font-size:1.3rem;margin-bottom:16px}
+  .card.emerg-card .ic{background:linear-gradient(135deg,var(--amber-dark),var(--amber))}
+  .card h3{font-size:1.12rem;margin-bottom:.4rem;color:var(--slate)}
+  .card p{color:var(--muted);font-size:.96rem}
+  @media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){.cards{grid-template-columns:1fr}}
+
+  /* About / trust split */
+  .about-split{background:var(--surface);padding:84px 0;border-top:1px solid var(--line)}
+  .split-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+  .split-grid .photo .ph{min-height:440px;border-radius:20px}
+  .split-grid h2{font-size:clamp(1.8rem,3.4vw,2.6rem);margin:.5rem 0 .9rem}
+  .split-grid p{color:var(--muted);font-size:1.06rem;margin-bottom:.9rem;max-width:50ch}
+  .trust-list{list-style:none;display:flex;flex-direction:column;gap:12px;margin-top:1.1rem}
+  .trust-list li{display:flex;align-items:flex-start;gap:12px;font-size:1.02rem;font-weight:500;color:var(--text)}
+  .trust-list .tc{width:32px;height:32px;border-radius:8px;background:rgba(240,165,0,.14);display:grid;place-items:center;flex:none;color:var(--amber-dark);font-size:1rem}
+  @media(max-width:860px){.split-grid{grid-template-columns:1fr;gap:28px}.split-grid .photo{max-width:420px}}
+
+  /* Why band */
+  .why{background:var(--slate);padding:80px 0;position:relative;overflow:hidden}
+  .why::after{content:"";position:absolute;bottom:-100px;right:-80px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(240,165,0,.12),transparent 68%);pointer-events:none}
+  .why .sec-head h2{color:#fff}
+  .why .eyebrow{color:var(--amber-2)}.why .eyebrow::before{background:var(--amber-2)}
+  .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;position:relative;z-index:2}
+  .why-item{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:24px 20px}
+  .why-item .wic{width:44px;height:44px;border-radius:10px;background:rgba(240,165,0,.18);display:grid;place-items:center;margin-bottom:14px;font-size:1.2rem}
+  .why-item h3{color:#fff;font-size:1.08rem;margin-bottom:.3rem}
+  .why-item p{color:#8fa3b4;font-size:.93rem}
+  @media(max-width:900px){.why-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:500px){.why-grid{grid-template-columns:1fr}}
+
+  /* Gallery */
+  .gallery{background:var(--bg);padding:84px 0}
+  .work-gallery{column-count:3;column-gap:16px}
+  .work-gallery figure{break-inside:avoid;margin:0 0 16px;border-radius:14px;overflow:hidden;box-shadow:var(--shadow-sm);background:#dce4ed}
+  .work-gallery figure .ph{border-radius:0;border:0;min-height:200px}
+  .work-gallery figure:hover{outline:3px solid var(--amber)}
+  @media(max-width:860px){.work-gallery{column-count:2}}
+  @media(max-width:520px){.work-gallery{column-count:1}}
+
+  /* Reviews */
+  .reviews{background:var(--surface);padding:84px 0;border-top:1px solid var(--line)}
+  .rev-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+  .review{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px}
+  .review .stars{color:var(--amber);font-size:1.1rem;margin-bottom:10px;letter-spacing:.05em}
+  .review p{font-size:1.04rem;color:var(--text);margin-bottom:14px;line-height:1.6}
+  .review .by{color:var(--muted);font-weight:600;font-size:.83rem;display:flex;align-items:center;gap:.5rem;flex-wrap:wrap}
+  .review .by .src{background:rgba(28,43,58,.08);color:var(--slate);padding:.15rem .5rem;border-radius:6px;font-size:.72rem;letter-spacing:.04em;font-weight:700}
+  @media(max-width:700px){.rev-grid{grid-template-columns:1fr}}
+
+  /* Contact */
+  .contact{background:var(--slate);padding:84px 0}
+  .contact-grid{display:grid;grid-template-columns:1fr 1.1fr;gap:52px;align-items:start}
+  .contact .eyebrow{color:var(--amber-2)}.contact .eyebrow::before{background:var(--amber-2)}
+  .contact h2{color:#fff;font-size:clamp(1.8rem,3.4vw,2.6rem);margin:.5rem 0 .8rem}
+  .contact .lede{color:#8fa3b4;font-size:1.06rem;margin-bottom:1.6rem;max-width:44ch}
+  .contact-list{list-style:none;display:flex;flex-direction:column;gap:14px}
+  .contact-list li{display:flex;align-items:center;gap:14px;font-size:1.02rem}
+  .contact-list .ci{width:44px;height:44px;border-radius:12px;background:rgba(240,165,0,.14);border:1px solid rgba(240,165,0,.25);display:grid;place-items:center;font-size:1.1rem;flex:none}
+  .contact-list a{font-weight:700;color:#fff}
+  .contact-list a:hover{color:var(--amber-2)}
+  .contact-list span small{display:block;color:#6b7d8e;font-weight:500;font-size:.78rem}
+  .emerg-banner{background:var(--amber);border-radius:14px;padding:18px 20px;margin-top:1.5rem;display:flex;align-items:center;gap:14px}
+  .emerg-banner .eb-ic{font-size:1.7rem;flex:none}
+  .emerg-banner h4{font-family:'Space Grotesk',sans-serif;font-weight:700;color:var(--slate);font-size:1rem;margin-bottom:.15rem}
+  .emerg-banner p{color:var(--slate);font-size:.9rem;font-weight:500;opacity:.8}
+  form{background:var(--surface);border-radius:18px;padding:30px;box-shadow:var(--shadow)}
+  form h3{color:var(--slate);font-family:'Space Grotesk',sans-serif;font-size:1.22rem;margin-bottom:.3rem}
+  form .fhint{color:var(--muted);font-size:.9rem;margin-bottom:20px}
+  .field{margin-bottom:14px}
+  .field label{display:block;font-weight:600;font-size:.84rem;color:var(--text);margin-bottom:6px}
+  .field input,.field select,.field textarea{width:100%;padding:.78rem .9rem;border:1.5px solid var(--line);border-radius:10px;font-family:inherit;font-size:.97rem;color:var(--text);background:#f8fafb;transition:border-color .15s,box-shadow .15s}
+  .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--amber);box-shadow:0 0 0 3px rgba(240,165,0,.18)}
+  .field textarea{resize:vertical;min-height:96px}
+  form .btn{width:100%;margin-top:8px}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:900px){.contact-grid{grid-template-columns:1fr;gap:28px}}
+  @media(max-width:460px){.row2{grid-template-columns:1fr}}
+
+  /* Footer */
+  footer.site{background:#141f29;padding:44px 0 28px;color:#6b7d8e}
+  .foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:24px}
+  .foot-col h4{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:.92rem;color:#fff;margin-bottom:10px}
+  .foot-col a,.foot-col p{color:#6b7d8e;font-size:.9rem;display:block;margin-bottom:6px}
+  .foot-col a:hover{color:var(--amber-2)}
+  .foot-bottom{border-top:1px solid rgba(255,255,255,.07);margin-top:28px;padding-top:18px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.83rem}
+  .wm a{color:var(--amber-2);font-weight:700}
+  /* Credentials panel */
+  .creds-panel{background:var(--slate);border-radius:20px;padding:36px 30px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .cred-item{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:22px 20px;text-align:center}
+  .cred-num{font-family:'Space Grotesk',sans-serif;font-weight:700;font-size:2.6rem;color:var(--amber);display:block;line-height:1;letter-spacing:-.02em}
+  .cred-label{font-size:.85rem;font-weight:600;color:#8fa3b4;display:block;margin-top:4px;letter-spacing:.04em;text-transform:uppercase}
+  .cred-quote{grid-column:1/-1;background:rgba(240,165,0,.1);border:1px solid rgba(240,165,0,.2);border-radius:14px;padding:20px;font-size:.98rem;color:#c8d8e8;font-style:italic;line-height:1.6}
+  .cred-quote span{display:block;margin-top:8px;color:var(--amber);font-style:normal;font-weight:700;font-size:.85rem}
+
+  /* Areas */
+  .areas{background:var(--bg);padding:84px 0}
+  .areas-grid{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+  .area-chip{background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:.55rem 1.1rem;font-weight:600;font-size:.95rem;color:var(--text);box-shadow:var(--shadow-sm)}
+
+  @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<!-- Topbar -->
+<div class="topbar">
+  <div class="wrap">
+    <span class="tb-left emerg">⚡ Emergency plumber — available right now</span>
+    <span class="tb-right">
+      <a href="tel:07360075504">📞 07360 075504</a>
+      <span>📍 Luton &amp; Bedfordshire</span>
+    </span>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="site">
+  <div class="nav">
+    <a href="#top" class="brand" aria-label="KT Plumbing home">
+      <div class="brand-mark">KT</div>
+      <div class="brand-text"><b>KT Plumbing</b><span>Emergency Plumber · Luton</span></div>
+    </a>
+    <nav class="links" id="menu">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#about">About</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="nav-phone" href="tel:07360075504">📞 <span class="nav-phone-label">07360 075504</span></a>
+      <a href="#contact" class="btn btn-amber">Get a free quote</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <span class="eyebrow">Luton &amp; Bedfordshire</span>
+      <h1>Luton's trusted plumber. <em>Day or night.</em></h1>
+      <p class="sub">Honest pricing, fast response and quality work — from a single dripping tap to a full bathroom or emergency callout. Kemar has you covered round the clock.</p>
+      <div class="hero-btns">
+        <a href="tel:07360075504" class="btn btn-amber">📞 Call now — 07360 075504</a>
+        <a href="#contact" class="btn btn-outline-white">Get a free quote</a>
+      </div>
+      <div class="hero-trust">
+        <span>⭐ 4.9 on Google</span>
+        <span>🛡️ Fully insured</span>
+        <span>✅ Free quotes</span>
+      </div>
+    </div>
+    <!-- Signature element: the 24/7 card -->
+    <div class="availability-card">
+      <div class="big-num">24/7</div>
+      <div class="big-label">Available</div>
+      <div class="av-divider"></div>
+      <div class="av-sub">Plumbing emergencies don't wait<br>for business hours — and neither does Kemar.</div>
+      <a href="tel:07360075504" class="av-cta">📞 Call now</a>
+    </div>
+  </div>
+</section>
+
+<!-- Services -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">What we do</span>
+      <h2>Plumbing services in Luton</h2>
+      <p>From urgent emergency callouts to planned bathroom and kitchen work — all jobs handled with the same care and fair pricing.</p>
+    </div>
+    <div class="cards">
+      <div class="card emerg-card">
+        <div class="ic">🚨</div>
+        <h3>Emergency Callouts</h3>
+        <p>Burst pipes, leaks and plumbing failures dealt with 24 hours a day, 7 days a week. Call Kemar directly.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🔧</div>
+        <h3>General Plumbing</h3>
+        <p>Taps, toilets, cisterns, pipework and stopcocks — all general plumbing work undertaken to a high standard.</p>
+      </div>
+      <div class="card">
+        <div class="ic">💧</div>
+        <h3>Leak Detection &amp; Repair</h3>
+        <p>Leaks found fast, explained clearly and repaired properly — with honest upfront pricing before any work starts.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🛁</div>
+        <h3>Bathroom Plumbing</h3>
+        <p>Full bathroom plumbing, suite installs, showers, baths and basin work fitted neatly from start to finish.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🌡️</div>
+        <h3>Water Cylinders &amp; Tanks</h3>
+        <p>Cold water tank and cylinder replacements carried out efficiently, with minimal disruption to your home.</p>
+      </div>
+      <div class="card">
+        <div class="ic">🍳</div>
+        <h3>Kitchen Plumbing</h3>
+        <p>Sinks, taps, dishwashers and washing machines connected and tested — quick, clean and ready to use.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About / trust -->
+<section class="about-split" id="about">
+  <div class="wrap">
+    <div class="split-grid">
+      <div class="creds-panel">
+        <div class="cred-item"><span class="cred-num">4.9</span><span class="cred-label">Google rating</span></div>
+        <div class="cred-item"><span class="cred-num">34</span><span class="cred-label">Five-star reviews</span></div>
+        <div class="cred-item"><span class="cred-num">24/7</span><span class="cred-label">Available</span></div>
+        <div class="cred-item"><span class="cred-num">1hr</span><span class="cred-label">Response time</span></div>
+        <div class="cred-quote">"Kemar is one of the nicest and most honest guys you could meet. Sets his own high standards and gets the job done at a very reasonable price." <span>— Ian M, Google</span></div>
+      </div>
+      <div>
+        <span class="eyebrow">About KT Plumbing</span>
+        <h2>Honest, reliable and always on time.</h2>
+        <p>KT Plumbing is run by Kemar — a Luton-based plumber known for turning up when he says he will, explaining the job clearly and charging a fair price. Every time.</p>
+        <p>With experience across general plumbing, bathroom work, cylinder replacements and emergency callouts, Kemar handles it all — and has the reviews to prove it.</p>
+        <ul class="trust-list">
+          <li><span class="tc">⭐</span>4.9 rating from 34 Google reviews</li>
+          <li><span class="tc">⚡</span>Available 24 hours a day, 7 days a week</li>
+          <li><span class="tc">💬</span>Honest, upfront pricing before work starts</li>
+          <li><span class="tc">🧹</span>Tidy, professional and respectful of your home</li>
+          <li><span class="tc">✅</span>Free no-obligation quotes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Why -->
+<section class="why" id="why">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Why KT Plumbing</span>
+      <h2>What makes Kemar different</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item"><div class="wic">⚡</div><h3>24/7 availability</h3><p>Day, night, weekends — Kemar picks up and gets to you fast when it matters most.</p></div>
+      <div class="why-item"><div class="wic">💰</div><h3>Fair, honest pricing</h3><p>You'll know the cost before any work starts. No hidden extras, no nasty surprises.</p></div>
+      <div class="why-item"><div class="wic">⭐</div><h3>4.9 on Google</h3><p>Consistently top-rated by real customers across Luton and Bedfordshire.</p></div>
+      <div class="why-item"><div class="wic">🏃</div><h3>Fast response</h3><p>Quick to answer, quick to arrive — especially on emergency and same-day callouts.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Areas covered -->
+<section class="areas" id="work">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Areas covered</span>
+      <h2>Serving Luton &amp; surrounding areas</h2>
+      <p>KT Plumbing covers Luton and the wider Bedfordshire area — call to check if Kemar covers your postcode.</p>
+    </div>
+    <div class="areas-grid">
+      <div class="area-chip">📍 Luton</div>
+      <div class="area-chip">📍 Dunstable</div>
+      <div class="area-chip">📍 Harpenden</div>
+      <div class="area-chip">📍 Leighton Buzzard</div>
+      <div class="area-chip">📍 Hitchin</div>
+      <div class="area-chip">📍 Stopsley</div>
+      <div class="area-chip">📍 Bury Park</div>
+      <div class="area-chip">📍 Bedfordshire</div>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Customer reviews</span>
+      <h2>What Luton customers say</h2>
+      <p>Verified reviews from Google — 4.9 stars from 34 customers.</p>
+    </div>
+    <div class="rev-grid">
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Excellent service from the first time I got in touch with Kemar. Very honest, professional and efficient — arrived within an hour to replace my kitchen tap. Work was of very high quality."</p>
+        <div class="by">Dipesh N · Local Guide <span class="src">via Google</span></div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Kemar is one of the nicest and honest guys you could meet. Great job done, without fuss. He sets his own high standards and gets the job done at a very reasonable price."</p>
+        <div class="by">Ian McCartney <span class="src">via Google</span></div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Polite and professional throughout. Did an excellent job replacing my cold water tank. I wouldn't hesitate to recommend Kemar's services to anyone needing a plumber."</p>
+        <div class="by">Adrian P <span class="src">via Google</span></div>
+      </div>
+      <div class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Brilliant service — attentive, understanding and neat work. Kemar quickly solved the issue at a very fair price. Quick response and finished the job swiftly and to a good standard."</p>
+        <div class="by">Verified customer · Luton <span class="src">via Google</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h2>Get your free quote</h2>
+        <p class="lede">For emergencies call directly — Kemar answers 24 hours a day. For planned work, fill in the form and you'll hear back the same day.</p>
+        <ul class="contact-list">
+          <li><span class="ci">📞</span><span><a href="tel:07360075504">07360 075504</a><small>Call or text — available 24/7</small></span></li>
+          <li><span class="ci">📍</span><span>Luton, Bedfordshire<small>Covering Luton and surrounding areas</small></span></li>
+          <li><span class="ci">✅</span><span>Free no-obligation quotes<small>Know the cost before work starts</small></span></li>
+        </ul>
+        <div class="emerg-banner">
+          <span class="eb-ic">🚨</span>
+          <div><h4>Plumbing emergency?</h4><p>Call 07360 075504 now — Kemar is available 24 hours a day, 7 days a week.</p></div>
+        </div>
+      </div>
+      <form action="https://formspree.io/f/mrevajwo" method="POST">
+        <h3>Request a free quote</h3>
+        <p class="fhint">For emergencies, call directly. For everything else, fill this in.</p>
+        <div class="field"><label for="name">Your name</label><input type="text" id="name" name="name" required></div>
+        <div class="row2">
+          <div class="field"><label for="phone">Phone number</label><input type="tel" id="phone" name="phone" required></div>
+          <div class="field"><label for="email">Email (optional)</label><input type="email" id="email" name="email"></div>
+        </div>
+        <div class="field">
+          <label for="job">Type of job</label>
+          <select id="job" name="job_type">
+            <option>Emergency callout</option>
+            <option>Leak repair</option>
+            <option>Tap or fixture</option>
+            <option>Bathroom plumbing</option>
+            <option>Water cylinder or tank</option>
+            <option>Kitchen plumbing</option>
+            <option>General plumbing</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field"><label for="message">Tell us about the job</label><textarea id="message" name="message" placeholder="Where are you based and what do you need?"></textarea></div>
+        <input type="hidden" name="_subject" value="New quote request — KT Plumbing">
+        <button type="submit" class="btn btn-amber">Send my enquiry</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="site">
+  <div class="wrap">
+    <div class="foot">
+      <div class="foot-col">
+        <h4>KT Plumbing</h4>
+        <p>Emergency plumber · Luton</p>
+        <p>Available 24/7 · Fully insured</p>
+        <a href="tel:07360075504">07360 075504</a>
+      </div>
+      <div class="foot-col">
+        <h4>Services</h4>
+        <a href="#services">Emergency callouts</a>
+        <a href="#services">General plumbing</a>
+        <a href="#services">Bathroom plumbing</a>
+        <a href="#services">Water cylinders</a>
+      </div>
+      <div class="foot-col">
+        <h4>Areas covered</h4>
+        <p>Luton · Dunstable · Harpenden</p>
+        <p>Leighton Buzzard · Hitchin</p>
+        <p>Bedfordshire &amp; surrounding</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 KT Plumbing · Emergency Plumber in Luton</span>
+      <span class="wm">Website by <a href="https://wordwise.uk">Wordwise</a></span>
+    </div>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Plumber",
+  "name":"KT Plumbing",
+  "description":"Emergency plumber in Luton available 24/7. Honest pricing, fast response and quality work across Luton and Bedfordshire.",
+  "telephone":"07360075504",
+  "openingHours":"Mo-Su 00:00-23:59",
+  "areaServed":["Luton","Bedfordshire","Dunstable","Harpenden","Leighton Buzzard"],
+  "address":{"@type":"PostalAddress","addressLocality":"Luton","addressRegion":"Bedfordshire","postalCode":"LU4 9NX","addressCountry":"GB"},
+  "priceRange":"££"
+}
+</script>
+
+<script>
+var burger=document.getElementById('burger');
+var menu=document.getElementById('menu');
+burger.addEventListener('click',function(){
+  var open=menu.classList.toggle('open');
+  document.body.classList.toggle('nav-open',open);
+  burger.setAttribute('aria-expanded',open);
+});
+menu.querySelectorAll('a').forEach(function(a){
+  a.addEventListener('click',function(){
+    menu.classList.remove('open');
+    document.body.classList.remove('nav-open');
+    burger.setAttribute('aria-expanded',false);
+  });
+});
+</script>
+</body>
+</html>
